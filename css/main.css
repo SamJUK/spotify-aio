@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  body .page {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    max-height: 900px; }
+    body .page a {
+      text-decoration: none;
+      color: inherit;
+      margin: 0 auto; }
+      body .page a .btn {
+        background: #eaeaea;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        border: 0;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+        height: 50px;
+        width: 200px;
+        margin: 15px 0;
+        border-radius: 3px;
+        font-weight: 500;
+        font-size: 14px; }
+        body .page a .btn.btn-green {
+          background: #2ebd59;
+          color: #fff;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); }
+
+#account {
+  text-align: center; }
+  #account img {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    margin: 0 auto 20px auto; }
+  #account h1 {
+    font-size: 32px;
+    font-weight: 400; }
+  #account h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 15px 0; }
+
+#control .ctrls {
+  height: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+#control .info {
+  height: 60px;
+  border-top: 1px solid #e4e3e3;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center; }
+  #control .info .artwork {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; }
+    #control .info .artwork .container {
+      height: 45px;
+      width: 45px;
+      background: grey;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      color: #5d5d5d;
+      margin: auto;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      #control .info .artwork .container.no-icon i {
+        display: none; }
+  #control .info .text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #control .info .text h1 {
+      font-weight: 500;
+      font-size: 15px;
+      color: #424242;
+      margin-bottom: 5px; }
+    #control .info .text h2 {
+      font-size: 12px;
+      color: #909090; }
+  #control .info .states {
+    width: 25%;
+    align-items: center;
+    display: flex; }
+    #control .info .states .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+      width: 80%;
+      margin: auto;
+      color: #808080; }
+      #control .info .states .container i {
+        padding: 18px 8px; }
+        #control .info .states .container i.active {
+          color: #2ebd59; }
+
+/*# sourceMappingURL=main.css.map */
